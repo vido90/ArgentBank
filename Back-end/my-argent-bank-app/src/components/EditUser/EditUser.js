@@ -1,0 +1,2 @@
+import '../EditUser/editUser.scss';
+
