@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+  }
+
+  .nav__logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .navbar__logo__image {
+    max-width: 100%;
+    width: 200px;
+  }
+
+  .nav a {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+
+  .nav__item {
+    text-decoration: none;
+    margin-right: 0.5rem;
+  }
+
+  .nav__item:hover {
+    text-decoration: underline;
+  }

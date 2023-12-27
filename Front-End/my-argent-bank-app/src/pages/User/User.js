@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 import Transactions from '../../components/Transactions/Transactions';
-import EditUser from '../../components/EditUser/EditUser';
+// import EditUser from '../../components/EditUser/EditUser';
 
 function User() {
-    const [token] = useState(localStorage.getItem('token'));
+    const [token] = useState(localStorage.getItem('token')); // chercher le token dans le redux
     const navigate = useNavigate();
 
     // Si l'utilisateur n'est pas connecté, redirection vers la page de connexion
@@ -17,7 +17,7 @@ function User() {
 
     return (
         <main className='main'>
-            <EditUser />
+            {/* <EditUser /> */}
             <Transactions />
         </main>
     )
